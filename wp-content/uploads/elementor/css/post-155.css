@@ -1,0 +1,50 @@
+.elementor-155 .elementor-element.elementor-element-15dd9fb{padding:45px 35px 45px 35px;z-index:9;}.elementor-bc-flex-widget .elementor-155 .elementor-element.elementor-element-8f013ea.elementor-column .elementor-widget-wrap{align-items:center;}.elementor-155 .elementor-element.elementor-element-8f013ea.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:center;align-items:center;}.elementor-155 .elementor-element.elementor-element-8f013ea.elementor-column > .elementor-widget-wrap{justify-content:space-between;}.elementor-155 .elementor-element.elementor-element-93b0f30{width:auto;max-width:auto;z-index:2;animation-timing-function:cubic-bezier(0.165,0.84,0.44,1);}.elementor-155 .elementor-element.elementor-element-86af1f4{text-align:left;width:auto;max-width:auto;z-index:1;}.elementor-155 .elementor-element.elementor-element-86af1f4 .aux-vertical .aux-menu-depth-0 .aux-item-content{text-align:left;}.elementor-155 .elementor-element.elementor-element-86af1f4 .aux-menu-depth-0 > .aux-item-content{font-family:"Poppins", Sans-serif;font-size:30px;font-weight:500;padding:0% 0% 10% 50%;}.elementor-155 .elementor-element.elementor-element-86af1f4 .aux-fs-menu .aux-menu-item > .aux-item-content{font-family:"Poppins", Sans-serif;font-size:30px;font-weight:500;text-transform:capitalize;}.elementor-155 .elementor-element.elementor-element-86af1f4 .aux-fs-menu .aux-master-menu{text-align:left;}.elementor-155 .elementor-element.elementor-element-86af1f4 .aux-fs-popup{background-image:url("http://localhost/BeautySaloon/wordpress/wp-content/uploads/2024/08/pexels-jc-laurio-2144413.jpg");background-position:80% 70%;background-repeat:no-repeat;background-size:contain;}@media(max-width:1024px){.elementor-155 .elementor-element.elementor-element-86af1f4 .aux-fs-popup{background-position:0px 0px;}}@media(max-width:767px){.elementor-155 .elementor-element.elementor-element-93b0f30 .aux-has-logo img{width:70%;}.elementor-155 .elementor-element.elementor-element-86af1f4 .aux-fs-menu .aux-menu-item > .aux-item-content{font-size:20px;}.elementor-155 .elementor-element.elementor-element-86af1f4 .aux-fs-popup{background-position:0px 0px;background-size:80% auto;}}/* Start custom CSS for aux_menu_box, class: .elementor-element-86af1f4 *//*-----burger menu-----*/
+.elementor-155 .elementor-element.elementor-element-86af1f4 .aux-burger:not(.aux-close)::before {
+    width: 50%;
+    margin-left: 50%;
+}
+.elementor-155 .elementor-element.elementor-element-86af1f4 .aux-burger:not(.aux-close)::after {
+    width: 75%;
+}
+/*.elementor-155 .elementor-element.elementor-element-86af1f4 .aux-burger.aux-thick-large .mid-line{*/
+/*    margin: 5px 0 !important;*/
+/*}*/
+.elementor-155 .elementor-element.elementor-element-86af1f4 .aux-cross-symbol:after, .elementor-155 .elementor-element.elementor-element-86af1f4 .aux-cross-symbol:before{
+    color: #000 !important;
+    height: 3px !important;
+}
+
+/*-----Items-----*/
+.elementor-155 .elementor-element.elementor-element-86af1f4 ul li{
+    text-align: left;
+}
+.elementor-155 .elementor-element.elementor-element-86af1f4 ul{
+    display: inline-block;
+    width: 20%;
+}
+.elementor-155 .elementor-element.elementor-element-86af1f4 .aux-menu-label{
+    position: relative;
+}
+.elementor-155 .elementor-element.elementor-element-86af1f4 ul li:hover a span:after{
+    content: '';
+    height: 21px;
+    background-color: #DCECFB;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10px;
+    z-index: -1;
+}
+@media screen and (max-width:2560px) and (min-width:2000px){
+    .elementor-155 .elementor-element.elementor-element-86af1f4 .aux-item-content{
+        padding: 0% 0% 10% 100% !important;
+    }
+}
+@media screen and (max-width:2560px){
+    .elementor-155 .elementor-element.elementor-element-86af1f4 .aux-panel-close{
+        top:7%;
+        left: 90%;
+        border: none;
+    }
+}/* End custom CSS */
